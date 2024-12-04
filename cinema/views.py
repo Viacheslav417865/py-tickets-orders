@@ -9,19 +9,6 @@ from cinema.models import (
     Order,
     Ticket
 )
-from cinema.serializers import (
-    GenreSerializer,
-    ActorSerializer,
-    CinemaHallSerializer,
-    MovieSerializer,
-    MovieSessionSerializer,
-    MovieSessionListSerializer,
-    MovieDetailSerializer,
-    MovieSessionDetailSerializer,
-    MovieListSerializer,
-    OrderSerializer,
-    OrderListSerializer
-)
 
 from cinema.pagination import OrderPagination
 
@@ -36,6 +23,7 @@ from cinema.serializers import (
     MovieSessionDetailSerializer,
     MovieListSerializer,
     OrderSerializer,
+    OrderListSerializer,
 )
 
 
